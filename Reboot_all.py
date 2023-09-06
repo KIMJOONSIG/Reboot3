@@ -12,7 +12,7 @@ def feature2():
 
 def feature3():
     print("Feature 3: LINUX")
-    os.system('sudo python3 linux/protocol_over.py')
+    os.system('sudo python3 linux/reboot3.py')
 
 def main():
     while True:
