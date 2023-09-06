@@ -12,6 +12,7 @@ import subprocess
 import psutil
 import datetime
 import socket
+import ctypes 
 
 def init():
 	f = Figlet(font='slant')
@@ -492,13 +493,39 @@ def memoryDump():
 	# "MemoryDump" 폴더 생성 후 저장
 	if not os.path.exists(destination_folder):
 		os.makedirs(destination_folder)
-	
-	# 메모리 덤프 파일 경로
-	memory_dump_file = os.path.join(destination_folder, 'memory_dump.txt')
 
-	h = hpy()
-	with open(memory_dump_file, "w") as f:
-		f.write(str(h.heap()))
+	# 메모리 덤프 파일을 저장할 디렉토리 경로 지정
+	dump_directory = destination_folder
+
+	# psexec.exe 경로 (psexec을 다운로드한 경로로 설정)
+	psexec_path = os.getcwd()
+	psexec_path = os.path.join(psexec_path, "PSTools")
+	psexec_path = os.path.join(psexec_path, "PsExec.exe")
+
+	# procdump.exe 경로 (procdump를 설치한 경로로 설정)
+	procdump_path = os.getcwd()
+	procdump_path = os.path.join(procdump_path, "Procdump")
+	procdump_path = os.path.join(procdump_path, "procdump.exe")
+
+	# 현재 실행 중인 모든 프로세스 가져오기
+	running_processes = list(psutil.process_iter(attrs=['pid', 'name']))
+
+	# 실행 중인 모든 프로세스에 대해 메모리 덤프 생성
+	for process in running_processes:
+		process_name = process.info['name']
+		process_pid = process.info['pid']
+		dump_file_path = os.path.join(dump_directory, f"{process_name}_{process_pid}_dump.dmp")
+
+		# procdump을 사용하여 메모리 덤프 실행
+		cmd = [procdump_path, f"-ma", process_name, dump_file_path]
+
+		try:
+			subprocess.run(cmd, check=True)
+			print(f"{process_name} 프로세스의 메모리 덤프 생성 완료:", dump_file_path)
+		except subprocess.CalledProcessError as e:
+			print(f"{process_name} 프로세스의 메모리 덤프 생성 중 오류 발생:", e)
+
+	print("모든 프로세스의 메모리 덤프 생성 완료")
 
 
 def userAssist():
