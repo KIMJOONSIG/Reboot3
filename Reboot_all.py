@@ -12,7 +12,7 @@ def feature2():
 
 def feature3():
     print("Feature 3: LINUX")
-    os.system('sudo python3 linux/reboot3.py')
+    os.system('sudo python3 linux/LINUX_ALL.py')
 
 def main():
     while True:
