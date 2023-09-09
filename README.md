@@ -76,7 +76,7 @@ code
 
 <br>
 
-## 기능 구현
+## 🖼️ 기능 구현
 <table>
     <tr>
       <th>Reboot_all.py</th>
