@@ -84,4 +84,39 @@
   - Propery list
   - Web history
   - launchctl list
-   
+- Mac OS Repository 구조
+
+```bash
+MAC
+└─── MAC_ALL.py
+     ├── Apple_APFS.py
+     ├── Eventlog.py
+     ├── bash_zsh_log.py
+     ├── cron.py
+     ├── disk_dump.py
+     ├── documents.py
+     ├── environment.py
+     ├── launch_list.py
+     ├── memory_dump.py
+     ├── open_handle.py
+     ├── patch_list.py
+     ├── port_ip_list.py
+     ├── process.py
+     ├── program_cache_data.py
+     ├── property_list.py
+     ├── recyclebin.py
+     ├── service_demon.py
+     ├── system_infor.py
+     └── web_history.py
+  
+```
+- 기능 사진
+  <table>
+    <tr>
+      <th>Mac OS</th>
+    </tr>
+    <tr>
+      <td valign="top"><img src="https://github.com/KIMJOONSIG/Reboot2/assets/129662947/5de1544f-4f77-438a-a020-2387cb080895"></td>
+    </tr>
+  </table> 
+
