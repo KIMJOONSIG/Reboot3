@@ -187,10 +187,10 @@ Windows
     </tr>
   </table> 
 
-## 🐧 [Linux](https://github.com/KIMJOONSIG/Reboot3/blob/main/Linux/LINUX_ALL.py)
+## 🐧 [Linux](https://github.com/KIMJOONSIG/Reboot3/tree/main/Linux)
 - Linux의 포렌식 아티팩트 수집 툴
 - 주요 기능
-  -   
+  - 추후 추가 예정
 
 - Linux Repository 구조
 
