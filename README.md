@@ -120,3 +120,47 @@ MAC
     </tr>
   </table> 
 
+## [Windows](https://github.com/KIMJOONSIG/Reboot3/tree/main/Windows)
+- Windows의 포렌식 아티팩트 수집 툴
+- 주요 기능
+  - Memory dump
+  - Registry Hive
+  - System info
+  - System Group Policy
+  - Event log
+  - Services log
+  - Hosts data
+  - SRUM
+  - Environment Variables
+  - Patch list
+  - Process List
+  - Port, IP, ARP, BIOS
+  - Open handle
+  - System logon info
+  - UserAssist
+  - AutoRun
+  - Registry User
+  - Web History
+  - Recycle Bin
+  - LNK
+  - PowerShell log
+  - Recent Activity
+  - Prefetch
+  - NTFS
+
+- Windows Repository 구조
+
+```bash
+Windows
+└─── reboot3.py
+  
+```
+- 기능 사진
+  <table>
+    <tr>
+      <th>Windows</th>
+    </tr>
+    <tr>
+      <td>추후 추가 예정</td>
+    </tr>
+  </table> 
