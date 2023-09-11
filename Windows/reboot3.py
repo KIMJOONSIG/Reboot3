@@ -1,15 +1,12 @@
 from pyfiglet import Figlet
-import LnkParse3
 import os
 from shutil import copyfile
 import shutil
-from guppy import hpy
 import sqlite3
 import subprocess
 import winreg
 import base64
 import subprocess
-import psutil
 import datetime
 import socket
 import ctypes 
