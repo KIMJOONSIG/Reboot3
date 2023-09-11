@@ -8,7 +8,7 @@ def feature1():
 
 def feature2():
     print("Feature 2: WINDOWS")
-    os.system('python3 windows/reboot3.py')
+    os.system('python windows/reboot3.py')
 
 def feature3():
     print("Feature 3: LINUX")
