@@ -183,7 +183,7 @@ Windows
       <th>Windows</th>
     </tr>
     <tr>
-      <td>추후 추가 예정</td>
+      <td valign="top"><img src="https://github.com/KIMJOONSIG/Reboot3/assets/129662947/a79eca6e-a2ce-44e8-8632-477f41f7d2b8"></td>
     </tr>
   </table> 
 
