@@ -190,7 +190,40 @@ Windows
 ## 🐧 [Linux](https://github.com/KIMJOONSIG/Reboot3/tree/main/Linux)
 - Linux의 포렌식 아티팩트 수집 툴
 - 주요 기능
-  - 추후 추가 예정
+  - System Info
+  - System Date Info
+  - Hard Clock Info
+  - System Date Info
+  - CPU Info
+  - Block Device Info
+  - Memory Using Info
+  - Environment Variables
+  - User Info
+  - SSH Access History Info
+  - Bash History
+  - Network Info
+  - Network Active Connections
+  - ARP Table Info
+  - Iptables Rules
+  - Process Info
+  - Activated Services Info
+  - System Startup Programs
+  - Disk Using Info
+  - Mount Files Info
+  - PCI Connecting Device Info
+  - Trash Info
+  - System Logs
+  - Kernel Logs
+  - Boot Logs
+  - Daemon Logs
+  - Cron Jobs
+  - SELogs
+  - Web Server Logs
+  - Mail Server Logs
+  - USB Logs
+  - Running Browser Check
+  - TCPDump
+  - Antivirus Logs Collection
 
 - Linux Repository 구조
 
@@ -205,6 +238,6 @@ Linux
       <th>LINUX_ALL.py</th>
     </tr>
     <tr>
-      <td>추후 추가 예정</td>
+      <td valign="top"><img src="https://github.com/KIMJOONSIG/Reboot3/assets/129662947/c2bb4d10-dff7-47e0-8816-bae61cbe58fb"></td>
     </tr>
   </table> 
