@@ -238,6 +238,6 @@ Linux
       <th>LINUX_ALL.py</th>
     </tr>
     <tr>
-      <td valign="top"><img src="https://github.com/KIMJOONSIG/Reboot3/assets/129662947/c2bb4d10-dff7-47e0-8816-bae61cbe58fb"></td>
+      <td valign="top"><img src="https://github.com/KIMJOONSIG/Reboot3/assets/129662947/3d959467-a745-4100-95f9-c85e2ac36108"></td>
     </tr>
   </table> 
